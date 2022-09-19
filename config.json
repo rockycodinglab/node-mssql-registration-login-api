@@ -1,18 +1,19 @@
 ﻿{
-    "dbName": "node-mssql-registration-login-api",
+    "dbName": "dcrd2ne0wf97bie",
     "dbConfig": {
-        "server": "localhost",
+        "server": "eu-az-sql-serv1.database.windows.net",
         "options": {
             "port": 1433,
-            "trustServerCertificate": true
+            "trustServerCertificate": false,
+            "database": "dcrd2ne0wf97bie"
         },
         "authentication": {
             "type": "default",
             "options": {
-                "userName": "sa",
-                "password": ""
+                "userName": "ughqx6ub62gzfp7",
+                "password": "!@stFfYo2c47WvFfdRxPLp4ik"
             }
         }
     },
-    "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING"
+    "secret": "Ebu-vRMgSUuudNg6HmUmowIBbGkwmM4keIyPirs9QYBQ"
 }
