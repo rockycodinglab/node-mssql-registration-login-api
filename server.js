@@ -1,5 +1,4 @@
 ﻿require('rootpath')();
-require('path')();
 const express = require('express');
 const app = express();
 const cors = require('cors');
@@ -12,11 +11,6 @@ app.use(cors());
 
 // api routes
 app.use('/users', require('./users/users.controller'));
-app.use(express.static(path.join(__dirname, 'build')));
-
-app.get('/stocks', function (req, res) {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
-});
 
 // global error handler
 app.use(errorHandler);
